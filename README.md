@@ -32,3 +32,10 @@ No DNS or custom-domain changes have been made. When approved, configure the dom
 
 ## Accuracy
 Descriptions and outreach examples come from the owner. Outcomes distinguish discussions, submissions and interview interest from contracted partnerships. No testimonials, ratings, guaranteed leads, booking calendar or form backend are fabricated.
+
+## Current publishing mode
+The account's custom GitHub Actions job was rejected before execution with: "The job was not started because your account is locked due to a billing issue."
+
+A `gh-pages` branch contains the deployable files at its root. Pages is currently configured to publish that branch, and a native Pages build has been requested. To update this branch after editing and committing main, run `pwsh -File publish-branch.ps1`.
+
+The requested main-push Actions workflow is included. After resolving the account billing issue at https://github.com/settings/billing, select GitHub Actions again in repository Settings > Pages and rerun the workflow. Main pushes will then publish automatically.
