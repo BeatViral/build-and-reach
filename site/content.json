@@ -1,0 +1,66 @@
+{
+  "packages": [
+    {
+      "label": "LEARN",
+      "title": "Personal AI & Vibe Coding",
+      "price": "A$149",
+      "unit": "/ 90-minute Zoom session",
+      "items": [
+        "One-to-one tuition on your own idea",
+        "Practical prompting and building",
+        "Testing and publishing guidance",
+        "Simple post-session notes"
+      ],
+      "note": "Or choose four personal sessions for A$499.",
+      "cta": "Book a lesson",
+      "subject": "Book an AI session"
+    },
+    {
+      "label": "BUILD",
+      "title": "Your Website, Built for You",
+      "price": "A$1,200",
+      "unit": "from",
+      "items": [
+        "Initial discovery discussion",
+        "Custom responsive website",
+        "Essential on-page SEO and enquiry pathway",
+        "Testing and agreed handover",
+        "One consolidated revision round"
+      ],
+      "note": "Scope, hosting, domain costs, integrations and ongoing maintenance are agreed in a written quote.",
+      "cta": "Get a website quote",
+      "subject": "Discuss a website"
+    },
+    {
+      "label": "REACH",
+      "title": "Personalised Outreach Pilot",
+      "price": "A$950",
+      "unit": "from",
+      "items": [
+        "Define the right prospect profile",
+        "Research a focused target list and contacts",
+        "Prepare personalised approaches",
+        "Plan follow-ups and track conversations",
+        "Campaign summary and next steps"
+      ],
+      "note": "Prospect numbers, activity, duration and who sends messages are agreed before commencement. Responses, appointments and sales are not guaranteed.",
+      "cta": "Discuss an outreach pilot",
+      "subject": "Explore business outreach"
+    },
+    {
+      "label": "BUILD + REACH",
+      "title": "The Complete Business Launch",
+      "price": "A$2,000",
+      "unit": "from \u00b7 subject to scope",
+      "items": [
+        "A professional business website",
+        "Personalised prospect research and outreach plan",
+        "Initial campaign materials",
+        "A practical AI handover session"
+      ],
+      "note": "Create your online presence, then build relevant connections. This is a website and outreach package, not a Google Ads package.",
+      "cta": "Let\u2019s build and grow",
+      "subject": "Build and Reach business launch"
+    }
+  ]
+}

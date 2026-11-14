@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beatviral.github.io/build-and-reach/sitemap.xml

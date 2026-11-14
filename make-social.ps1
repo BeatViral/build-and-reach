@@ -1,0 +1,20 @@
+Add-Type -AssemblyName System.Drawing
+$bmp = New-Object System.Drawing.Bitmap(1200,630)
+$g = [System.Drawing.Graphics]::FromImage($bmp)
+$g.SmoothingMode = 'AntiAlias'
+$g.TextRenderingHint = 'AntiAliasGridFit'
+$g.Clear([System.Drawing.ColorTranslator]::FromHtml('#f7f6f0'))
+$navy = New-Object System.Drawing.SolidBrush([System.Drawing.ColorTranslator]::FromHtml('#142333'))
+$blue = New-Object System.Drawing.SolidBrush([System.Drawing.ColorTranslator]::FromHtml('#2458ef'))
+$orange = New-Object System.Drawing.SolidBrush([System.Drawing.ColorTranslator]::FromHtml('#ef7446'))
+$g.DrawString('BUILD & REACH',(New-Object System.Drawing.Font('Arial',23,[System.Drawing.FontStyle]::Bold)),$navy,65,50)
+$g.DrawString("Learn it.`nBuild it.`nGrow it.",(New-Object System.Drawing.Font('Arial',75,[System.Drawing.FontStyle]::Bold)),$navy,60,155)
+$g.FillRectangle($blue,845,210,190,190)
+$g.FillRectangle($orange,1045,410,70,70)
+$pen = New-Object System.Drawing.Pen([System.Drawing.ColorTranslator]::FromHtml('#2458ef'),24)
+$g.DrawLine($pen,830,420,1095,155)
+$g.DrawLine($pen,1095,155,1095,315)
+$g.DrawLine($pen,1095,155,935,155)
+$g.DrawString('Practical AI lessons. Thoughtful websites. Meaningful connections.',(New-Object System.Drawing.Font('Arial',17)),$navy,65,555)
+$bmp.Save((Join-Path (Get-Location) 'site/assets/social.png'),[System.Drawing.Imaging.ImageFormat]::Png)
+$g.Dispose(); $bmp.Dispose()
