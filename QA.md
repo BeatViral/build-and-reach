@@ -12,3 +12,6 @@
 - No DNS or custom-domain settings changed.
 
 Publication verified: native Pages build and deployment succeeded, and https://beatviral.github.io/build-and-reach/ returned HTTP 200 with the correct page. The deployed site was also opened and visually checked in the browser.
+
+## Simplified offers revision
+Replaced the earlier packages with three plain-language service blocks and the owner's revised prices: A$399 course, A$1,200 website, A$99 small updates, A$2,500 outreach campaign. Each block explains its inclusions. Website search setup explicitly mentions Google and AI search tools. Three projects and two outcomes appear first; remaining examples expand on request. Verified no horizontal overflow at 320px and 1440px, mobile menu navigation, expandable sections, local assets, anchors, structured data and enquiry addresses.

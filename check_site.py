@@ -19,8 +19,9 @@ for x in c.links:
  if x.startswith('mailto:'):assert x.startswith('mailto:mahmoodkhanteam@gmail.com')
 json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>',h).group(1))
 ET.parse('site/sitemap.xml')
-assert h.count('class="package"')==4
+assert h.count('class="service package"')==3
 assert h.count('class="project"')==6
 assert 'outreach-mania' not in h
 assert 'https://fonts.googleapis.com' not in Path('site/styles.css').read_text()
-print('PASS: assets, anchor targets, unique H1/IDs, mailto URLs, structured data, sitemap, four packages and six projects')
+print('PASS: assets, anchor targets, unique H1/IDs, mailto URLs, structured data, sitemap, three packages and six projects')
+

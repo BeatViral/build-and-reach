@@ -1,66 +1,64 @@
 {
+  "email": "mahmoodkhanteam@gmail.com",
   "packages": [
     {
-      "label": "LEARN",
-      "title": "Personal AI & Vibe Coding",
-      "price": "A$149",
-      "unit": "/ 90-minute Zoom session",
+      "label": "01 / LEARN IT",
+      "title": "Learn to build your own website with AI.",
+      "intro": "No experience needed. We’ll guide you step by step over Zoom, using your own idea to build a website together.",
+      "name": "Your Complete Website Course",
+      "price": "A$399",
+      "unit": "Four private Zoom lessons · 60 minutes each",
       "items": [
-        "One-to-one tuition on your own idea",
-        "Practical prompting and building",
-        "Testing and publishing guidance",
-        "Simple post-session notes"
+        "Lesson 1: Use AI and create your first webpage.",
+        "Lesson 2: Add your pictures, words and business information.",
+        "Lesson 3: Make it beautiful and mobile-friendly.",
+        "Lesson 4: Put your website online and learn how to update it."
       ],
-      "note": "Or choose four personal sessions for A$499.",
-      "cta": "Book a lesson",
-      "subject": "Book an AI session"
+      "note": "One complete course, with personal guidance from your first webpage to publishing a simple website.",
+      "cta": "Book my website course",
+      "subject": "Book my website course"
     },
     {
-      "label": "BUILD",
-      "title": "Your Website, Built for You",
+      "label": "02 / BUILD IT",
+      "title": "Let us build and maintain your website.",
+      "intro": "You run your business. We’ll take care of your website. Tell us what you need, and we’ll create something you can be proud of.",
+      "name": "Complete Business Website",
       "price": "A$1,200",
-      "unit": "from",
+      "unit": "Your website, designed and published",
       "items": [
-        "Initial discovery discussion",
-        "Custom responsive website",
-        "Essential on-page SEO and enquiry pathway",
-        "Testing and agreed handover",
-        "One consolidated revision round"
+        "A professional website designed for your business.",
+        "Your information, pictures and services.",
+        "Looks good on phones, tablets and computers.",
+        "Basic setup to help Google and AI search tools understand your website.",
+        "Clear contact and enquiry options.",
+        "Website publishing and two rounds of changes."
       ],
-      "note": "Scope, hosting, domain costs, integrations and ongoing maintenance are agreed in a written quote.",
-      "cta": "Get a website quote",
-      "subject": "Discuss a website"
+      "note": "We agree the pages and features before starting. Domain, hosting and any paid services are quoted separately.",
+      "update": {
+        "price": "A$99",
+        "text": "For a small update to existing pages, such as changing pictures, prices or text. Larger changes quoted first. No monthly maintenance subscription."
+      },
+      "cta": "Build my website",
+      "subject": "Build my website"
     },
     {
-      "label": "REACH",
-      "title": "Personalised Outreach Pilot",
-      "price": "A$950",
-      "unit": "from",
+      "label": "03 / GROW IT",
+      "title": "Now let’s find you customers.",
+      "intro": "Your website is ready. How do you reach customers? We find people and businesses who might need your services, then email them individually with a personal message.",
+      "name": "Your 100-Prospect Outreach Campaign",
+      "price": "A$2,500",
+      "unit": "100 potential customers · 30-day campaign",
       "items": [
-        "Define the right prospect profile",
-        "Research a focused target list and contacts",
-        "Prepare personalised approaches",
-        "Plan follow-ups and track conversations",
-        "Campaign summary and next steps"
+        "Research 100 relevant people or businesses.",
+        "Write and send 100 individual introduction emails.",
+        "Follow up once with each person, where appropriate.",
+        "Monitor replies and help develop conversations.",
+        "Identify genuine interest and possible business opportunities.",
+        "Report who we contacted, their replies and the opportunities identified."
       ],
-      "note": "Prospect numbers, activity, duration and who sends messages are agreed before commencement. Responses, appointments and sales are not guaranteed.",
-      "cta": "Discuss an outreach pilot",
-      "subject": "Explore business outreach"
-    },
-    {
-      "label": "BUILD + REACH",
-      "title": "The Complete Business Launch",
-      "price": "A$2,000",
-      "unit": "from \u00b7 subject to scope",
-      "items": [
-        "A professional business website",
-        "Personalised prospect research and outreach plan",
-        "Initial campaign materials",
-        "A practical AI handover session"
-      ],
-      "note": "Create your online presence, then build relevant connections. This is a website and outreach package, not a Google Ads package.",
-      "cta": "Let\u2019s build and grow",
-      "subject": "Build and Reach business launch"
+      "note": "We’ve spent months refining this approach for our own projects. Campaign details and messaging are agreed before we begin. Replies, interested leads and sales vary by business and market.",
+      "cta": "Let’s find my customers",
+      "subject": "Discuss my 100-prospect campaign"
     }
   ]
 }

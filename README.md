@@ -7,13 +7,13 @@ Static Australian business website for practical AI education, web design and pe
 - `site/styles.css`: responsive styles, self-hosted fonts and brand variables.
 - `site/app.js`: accessible mobile navigation.
 - `site/content.json`: edit all package prices and inclusions here, then run `python build_site.py`.
-- `build_site.py`: edit homepage text, service lists and portfolio records, then regenerate. Existing `content.json` values are preserved.
+- `build_site.py`: renders `homepage.template.html` using `site/content.json`. Edit the template for homepage text and portfolio examples; edit the JSON for service copy, inclusions, prices and email, then regenerate.
 - `site/assets/`: original light/dark SVG wordmarks and compact marks, favicon, social PNG (1200 x 630), screenshots, fonts and OFL licences.
 - `site/privacy.html`: edit privacy text directly.
 - `site/robots.txt`, `site/sitemap.xml`: crawler files.
 - `.github/workflows/pages.yml`: automatic Pages deployment on pushes to main.
 
-To add a portfolio example, add a record in the generator's `projects` list and a preview theme in CSS. Five thumbnails are genuine captures of the supplied public websites. Outreach Mania uses a typographic preview and has no repository link because public availability was not confirmed.
+To add a portfolio example, edit the project cards in `homepage.template.html` and add a thumbnail in assets. Five thumbnails are genuine captures of the supplied public websites. Outreach Mania uses a typographic preview and has no repository link because public availability was not confirmed.
 
 Update contact details in `build_site.py` and `site/privacy.html`. Update SVGs in assets and CSS variables for branding. Run `pwsh -File make-social.ps1` to regenerate the sharing image on Windows. Font files are self-hosted and licensed under the included OFL texts.
 
@@ -41,3 +41,6 @@ A `gh-pages` branch contains the deployable files at its root. Pages is currentl
 The requested main-push Actions workflow is included. After resolving the account billing issue at https://github.com/settings/billing, select GitHub Actions again in repository Settings > Pages and rerun the workflow. Main pushes will then publish automatically.
 
 The branch-based native Pages deployment succeeded. The public URL was verified with HTTP 200 and a browser review. The site is live; resolving billing is only needed to restore the custom main-push workflow.
+
+
+Current offers: four 60-minute Zoom lessons A$399; business website A$1,200; small updates A$99; 100-person outreach campaign over 30 days A$2,500. These replace the earlier introductory packages. Service prices and all summary prices come from the same configuration.
