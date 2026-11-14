@@ -39,3 +39,5 @@ The account's custom GitHub Actions job was rejected before execution with: "The
 A `gh-pages` branch contains the deployable files at its root. Pages is currently configured to publish that branch, and a native Pages build has been requested. To update this branch after editing and committing main, run `pwsh -File publish-branch.ps1`.
 
 The requested main-push Actions workflow is included. After resolving the account billing issue at https://github.com/settings/billing, select GitHub Actions again in repository Settings > Pages and rerun the workflow. Main pushes will then publish automatically.
+
+The branch-based native Pages deployment succeeded. The public URL was verified with HTTP 200 and a browser review. The site is live; resolving billing is only needed to restore the custom main-push workflow.
